@@ -22,5 +22,10 @@ public class PemrogramanObject {
 
         System.out.println("Luas: " + pp.hitungLuas());
         System.out.println("Keliling: " + pp.hitungKeliling());
+
+        PersegiPanjang pp1 = new PersegiPanjang(20.0, 7.0);
+
+        System.out.println("\nLuas1: " + pp1.hitungLuas());
+        System.out.println("Keliling1: " + pp1.hitungKeliling());
     }
 }
