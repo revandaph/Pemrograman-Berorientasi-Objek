@@ -1,3 +1,5 @@
+package Jobsheet;
+
 public class PemrogramanTerstruktur {
     public static double hitungLuas(double panjang, double lebar) {
         return panjang * lebar;
