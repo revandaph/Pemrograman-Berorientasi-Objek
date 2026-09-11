@@ -1,0 +1,41 @@
++-------------------------------------------------------+
+|                       Laptop23                        |
++-------------------------------------------------------+
+| - merk: String                                        |
+| - processor: String                                   |
+| - ram: int                                            |
+| - persentaseBaterai: int                              |
++-------------------------------------------------------+
+| + Laptop23()                                          |
+| + Laptop23(merk: String, processor: String, ram: int, |
+|   persentaseBaterai: int)                             |
+| + nyalakan(): void                                    |
+| + bukaProgram(namaProgram: String): void              |
+| + matikan(): void                                     |
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+|                   KameraDigital23                     |
++-------------------------------------------------------+
+| - merk: String                                        |
+| - resolusiMegapixel: int                              |
+| - sisaPenyimpanan: int                                |
+| - iso: int                                            |
++-------------------------------------------------------+
+| + ambilFoto(): void                                   |
+| + rekamVideo(): void                                  |
+| + matikan(): void                                     |
++-------------------------------------------------------+
+
++-------------------------------------------------------+
+|                  JamTanganDigital23                   |
++-------------------------------------------------------+
+| - merk: String                                        |
+| - jam: int                                            |
+| - menit: int                                          |
+| - statusAlarm: boolean                                |
++-------------------------------------------------------+
+| + tampilkanWaktu(): void                              |
+| + pasangAlarm(jamAlarm: int, menitAlarm: int): void   |
+| + mulaiStopwatch(): void                              |
++-------------------------------------------------------+
