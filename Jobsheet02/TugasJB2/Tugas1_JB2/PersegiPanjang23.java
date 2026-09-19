@@ -5,9 +5,12 @@ public class PersegiPanjang23 {
     public int panjang;
     public int lebar;
 
-    public void displayInfo() {
-        System.out.println("Panjang : " + panjang);
-        System.out.println("Lebar   : " + lebar);
+    public void displayInfo(int panjang, int lebar) {
+        this.panjang=panjang;
+        this.lebar=lebar;
+
+        System.out.println("Panjang  : " + this.panjang);
+        System.out.println("Lebar    : " + this.lebar);
     }
 
     public int getLuas() {
