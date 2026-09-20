@@ -1,4 +1,4 @@
-package Jobsheet03;
+package Jobsheet03.Percobaan1dan2;
 
 public class MotorDemo23 {
 public static void main(String[] args) {
