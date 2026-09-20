@@ -29,8 +29,8 @@ public class Main23 {
         System.out.println("\n=== UJI VALIDASI IPK SALAH ===");
         mhs1.setIpk(4.50);
 
-        //mhs1.nim = "2341720099";
-        //mhs1.nama = "Nama Baru";
+        mhs1.nim = "2341720099";
+        mhs1.nama = "Nama Baru";
 
     }
 }
