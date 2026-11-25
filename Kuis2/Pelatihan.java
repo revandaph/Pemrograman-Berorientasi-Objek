@@ -8,7 +8,7 @@ public abstract class Pelatihan {
     public Pelatihan() {
         this.kodeProgram = "-";
         this.namaPeserta = "-";
-        this.durasiJam = 1;
+        this.durasiJam = 1; 
     }
 
     public Pelatihan(String kodeProgram, String namaPeserta, int durasiJam) {
